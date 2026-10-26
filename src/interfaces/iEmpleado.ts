@@ -1,9 +1,8 @@
-export interface I_vAlumno {
+export interface iEmpleado {
   get nombre(): string;
   get cedula(): number;
-  get nota1(): number;
-  get nota2(): number;
-  get nota3(): number;
+  get sueldoActual(): number;
+  get aniosTrabajando(): number;
   mostrar(): void;
   ocultar(): void;
   onAceptar(callback: () => void): void;
